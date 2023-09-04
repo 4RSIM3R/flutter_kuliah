@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kuliah/pages/convert_page.dart';
+import 'package:kuliah/routes/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
         useMaterial3: true,
       ),
-      home: const ConvertPage(),
+      onGenerateRoute: Routes.generateRoute,
     );
   }
 }
