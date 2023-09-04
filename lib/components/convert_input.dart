@@ -6,16 +6,19 @@ class ConvertInput extends StatelessWidget {
     super.key,
     required this.hint,
     required this.controller,
+    this.keyboardType = TextInputType.text,
   });
 
   final String hint;
   final TextEditingController controller;
+  final TextInputType keyboardType;
 
   @override
   Widget build(BuildContext context) {
     return TextField(
       controller: controller,
       decoration: GenerateTheme.inputDecoration(hint),
+      keyboardType: keyboardType,
     );
   }
 }
