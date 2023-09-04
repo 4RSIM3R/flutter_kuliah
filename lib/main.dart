@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kuliah/pages/home_page.dart';
+import 'package:kuliah/pages/convert_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
-        
       ),
-      home: const HomePage(),
+      home: const ConvertPage(),
     );
   }
 }
