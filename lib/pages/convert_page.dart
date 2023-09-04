@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kuliah/components/convert_button.dart';
-import 'package:kuliah/components/convert_dropdown.dart';
-import 'package:kuliah/components/convert_input.dart';
+import 'package:kuliah/components/button/convert_button.dart';
+import 'package:kuliah/components/input/convert_dropdown.dart';
+import 'package:kuliah/components/input/convert_input.dart';
 
 class ConvertPage extends StatefulWidget {
   const ConvertPage({super.key});

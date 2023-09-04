@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:kuliah/components/news_card.dart';
+import 'package:kuliah/components/card/news_card.dart';
 
 class HomeMainLayout extends StatelessWidget {
   const HomeMainLayout({super.key});

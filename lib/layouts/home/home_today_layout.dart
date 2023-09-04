@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kuliah/components/news_card.dart';
+import 'package:kuliah/components/card/news_card.dart';
 
 class HomeTodayLayout extends StatelessWidget {
   const HomeTodayLayout({super.key});
